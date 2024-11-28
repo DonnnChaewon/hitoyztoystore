@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HI-TOYZ - Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="homelogin.html"><img src="logo.png" width="210" height="70"></a>
+        <nav>
+            <ul>
+                <li><a href="homelogin.html">← Back to Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <h2>Profile</h2>
+
+    <div class="profile">
+        <center>
+            <img id="profilePic" class="profile" src="profile.jpg" width="250" height="250">
+            <input type="file" id="fileInput" style="display: none;" accept="image/*" onchange="previewImage(event)"><br>
+    
+            <form id="profile-form">
+                <br><label>Name:</label>
+                <input type="text" class="editable" value="Kang Haerin" disabled><br><br>
+                <label>Email:</label>
+                <input type="email" class="editable" value="kanghaerin@gmail.com" disabled><br><br>
+                <label>Password:</label>
+                <input type="password" class="editable" value="haerinnewjeans" disabled><br>
+    
+                <br><button type="button" id="editBtn" onclick="editProfile()">Edit Profile</button><br>
+                <button type="button" id="saveBtn" onclick="saveChanges()" style="display:none;">Save Changes</button><br>
+
+                <button type="button" onclick="document.location='home.html'">Logout</button>
+            </form>
+        </center>
+    </div>
+
+    <script src="editprofile.js"></script>
+
+    <br><footer>
+        <p><center>&copy; 2023 HI-TOYZ. All rights reserved.</center></p>
+    </footer>
+</body>
+
+</html>

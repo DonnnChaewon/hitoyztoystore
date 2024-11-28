@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #54f4ffe0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: white;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul li img {
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.product-list li img {
+    max-width: 100%;
+}
+
+.store-photos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.customer-photos {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.event-list li img {
+    max-width: 100%;
+}
+
+#register-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#register-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#register-form input[type="text"],
+#register-form input[type="password"],
+#register-form input[type="email"],
+#register-form input[type="date"],
+#register-form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#register-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background-color: #54f4ffe0;
+    color: #000000
+}
+
+#login-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#login-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+#login-form button:hover {
+    background-color: #54f4ffe0;
+    color: #000000
+}
+
+#profile-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#profile-form input[type="text"],
+#profile-form input[type="email"],
+#profile-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#profile-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#profile-form button:hover {
+    background-color: #54f4ffe0;
+    color: #000000
+}
+
+input[type="file"] {
+    display: block;
+    text-align: center;
+    width: 125px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="file"]:hover::-webkit-file-upload-button {
+    display: block;
+    text-align: center;
+    background-color: #54f4ffe0;
+    color: #000000;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #54f4ffe0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HI-TOYZ - Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img src="logo.png" width="210" height="70"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">← Back to Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="login-form" onsubmit="return validateLoginForm()" action="homelogin.html">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <p><u><center><a href=forgotpassword.html>Forgot password</a></center></u></p>
+            <p><u><center><a href=register.html>Don't have an account? Register</a></center></u></p>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <script src="login.js"></script>
+
+    <br><footer>
+        <p><center>&copy; 2023 HI-TOYZ. All rights reserved.</center></p>
+    </footer>
+</body>
+
+</html>
