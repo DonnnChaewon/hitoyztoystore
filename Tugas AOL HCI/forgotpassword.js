@@ -15,6 +15,7 @@ function forgotPassword() {
 
     if (confirmpassword != password) {
         alert("Password does not match.");
+        return false;
     }
 
     return true;
